@@ -74,3 +74,34 @@ footer{
     font-family: monospace;
     font-size: 1.7rem;
 }
+
+#step-1{
+    
+    border: solid #FF6000;
+    background: #FFe3c7;
+    border-radius: 5px;
+    color: #454545;
+}
+#step-2{
+    border: solid #FF6000;
+    background: #FFE6C7;
+    border-radius: 5px;
+    color: #454545;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#name{
+    padding: 10px;
+    margin: 10px;
+}
+#email{
+    padding: 10px;
+    margin: 10px;
+}
+#msj{
+    padding: 10px;
+    margin: 10px;
+}
+#summary{
+    padding: 10px;
+    margin: 10px;
+}
