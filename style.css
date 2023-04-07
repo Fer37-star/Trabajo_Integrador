@@ -30,7 +30,7 @@ li{
     background: #FFE6C7;
     color: black;
     border-radius: 10px;
-    margin: 5px;
+    margin: 6px;
     box-shadow: 2px 2px 10px 5px;
     cursor: pointer;
 }
@@ -61,4 +61,16 @@ footer{
     width:200px ;
     height:200px ;
     border-radius: 50%;
+}
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid cyan;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 1.7rem;
 }
