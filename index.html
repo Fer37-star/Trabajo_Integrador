@@ -39,23 +39,25 @@
                 <div class="register-from">
                     
                     <!--<p>para comenzar el test</p>-->
-                    <form id="solicita-informacion" action="" method="post" novalidate="">
+                    <form id="step-1">
+                        
+                        <input type="text" id="name" name="name" required placeholder="Nombre"> <br>
+                        
+                        
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                        <br>
+
+                        <textarea name="mensaje" id="msj" cols="25" rows="0" placeholder="Mensaje"></textarea>
+                        <br>
+                    
+                        <button type="button" id="next-btn">Siguiente</button>
+                      </form>
+
+                    <form id="step-2">
+                        <p>Resumen:</p>
+                        <div id="summary"></div>
+                      </form>
                       
-          
-                        <input class="form-control2" placeholder="Nombre*" type="text" name="nombre" id="nombre" value="" required="" data-parsley-id="8"> 
-                        <br>
-                        <input class="form-control2" placeholder="Email*" type="email" name="email" required="" value="" data-parsley-id="10">
-                        <br>
-                        <textarea class="form-control2" placeholder="Mensaje*" name="mensaje" id="mensaje" required="" data-parsley-id="12"></textarea>
-                        <br>
-                        <div class="gap-1"></div>
-                        <div data-theme="light" data-sitekey="6LcQ9mUUAAAAAIVvUxbwHbMVahWcCUUQTF9V1cOO" class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcQ9mUUAAAAAIVvUxbwHbMVahWcCUUQTF9V1cOO&amp;co=aHR0cHM6Ly91bmVzLmVkdS5teDo0NDM.&amp;hl=es&amp;v=6MY32oPwFCn9SUKWt8czDsDw&amp;theme=light&amp;size=normal&amp;cb=b58p12zexany" width="304" height="78" role="presentation" name="a-jisgi9uf4hbz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
-                        <br>
-                        <div id="info-loading" style="display:none">
-                            <img src="https://unes.edu.mx/assets/images/loading.gif" alt="Espere...">
-                        </div>
-                        <button id="info-button" class="btn btn-primary" type="submit">Enviar</button>
-                    </form>
                 
             </div>
         </section>
