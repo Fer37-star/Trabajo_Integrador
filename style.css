@@ -14,6 +14,11 @@ header{
 background: #454545;
 }
 
+#t1{
+    font-family: 'Kalam', cursive;
+    
+}
+
 ul{
  background-color: #FF6000;
  box-shadow: 2px 2px 10px 5px;
@@ -25,6 +30,7 @@ nav{
 }
 
 li{
+    justify-content: center;
     list-style: none;
     text-align: center;
     background: #FFE6C7;
@@ -64,15 +70,17 @@ footer{
 }
 
 #watch{
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 200px;
-    border: 2px solid cyan;
-    border-radius: 50%;
-    font-family: monospace;
+    width: 150px;
+    height: 100px;
+    border: 5px solid #454545;
+    border-radius: 20%;
+    font-family:ds;
     font-size: 1.7rem;
+    font-family: 'Kalam', cursive;
 }
 
 #step-1{
@@ -120,7 +128,7 @@ section{
 }
 
 .card{
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 10px;
     width: 200px;
     height: 200px;
