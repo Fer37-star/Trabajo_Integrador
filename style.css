@@ -47,12 +47,12 @@ p{
 }
 
 main {
-    background:#FFE6C7;
-    color:black;
+    background:#454545;
+    color:white;
 }
 
 footer{
-    background: #454545;
+    background:#FF6000;
     color: white;
 
 }
@@ -87,7 +87,7 @@ footer{
     background: #FFE6C7;
     border-radius: 5px;
     color: #454545;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 #name{
     padding: 10px;
@@ -104,4 +104,33 @@ footer{
 #summary{
     padding: 10px;
     margin: 10px;
+}
+
+#redes{
+    background-color: #454545;
+
+}
+
+section{
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3s all ease;
+    
+}
+
+.card:hover{
+    flex: 2;
+    background-color: #FF6000;
 }
