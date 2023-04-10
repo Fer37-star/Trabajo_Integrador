@@ -16,18 +16,24 @@
 </head>
 <!-- en esto me base para pagina https://blog.hubspot.es/hubfs/media/16216970042380662.jpeg -->
 <body>
-    <header>
-        <nav class="container-fluids border">
-            
-            <ul class="container border p-3 d-md-flex justify-content-end">
-                <h1 id="t1" class="col row">Trabajo Practico</h1>
-                <li class="col-md-2 p-2 border"><a href="index.html">Inicio</a></li>
-                <li class="col-md-2 p-2 border"><a href="Nosotros.html">Nosotros</a></li>
-                <li class="col-md-2 p-2 border"><a href="Contactos.html">Contactos</a></li>
-                <div id="watch"></div>
-            </ul>
-        </nav>
+    <header>    
+        <div class="container container-fluids">
+            <h1 id="t1" class="col row justify-content-start">Trabajo Practico</h1>
+            <div id="watch"></div>
+        </div>
+        
+       
     </header>
+    <nav class="container-fluids border">
+            
+        <ul class="container border p-3 d-md-flex justify-content-center">
+            
+            <li class="col-md-2 p-2 border"><a href="index.html">Inicio</a></li>
+            <li class="col-md-2 p-2 border"><a href="Nosotros.html">Nosotros</a></li>
+            <li class="col-md-2 p-2 border"><a href="Contactos.html">Contactos</a></li>
+            
+        </ul>
+    </nav>
     
     <main  class="container-sm border">
         <section class="row align-items-start">
@@ -45,6 +51,11 @@
                     
                     <!--<p>para comenzar el test</p>-->
                     <form id="step-1">
+
+                        <img src="https://www.nicepng.com/png/detail/202-2022264_usuario-annimo-usuario-annimo-user-icon-png-transparent.png" id="img">
+                        <br>
+                        <input id="upimg" name="upimg" type="file"/>
+                        <br>
                         
                         <input type="text" id="name" name="name" required placeholder="Nombre">
                         <br>
@@ -55,7 +66,7 @@
                         <textarea name="mensaje" id="msj" cols="25" rows="0" placeholder="Mensaje"></textarea>
                         <br>
                     
-                        <button class="btn btn-dark" type="submit" id="next-btn">Siguiente</button>
+                        <button class="btn btn-dark" type="button" id="next-btn">Siguiente</button>
                       </form>
 
                     <form id="step-2">
