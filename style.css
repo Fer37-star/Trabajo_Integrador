@@ -137,15 +137,10 @@ footer{
     text-decoration: underline;
   }
   
-  .form-register.next-btn {
+#next-btn{
+  margin-left: 125px;
+}
 
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    font-size: 16px;
-  }
 #step-1{
   margin-bottom: 100px;
 }
